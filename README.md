@@ -1,6 +1,6 @@
 # NotificationSystem
 
-The `NotificationSystem` is a simple and lightweight notification manager for Roblox that allows you to display notifications on the player's screen. Notifications can be customized with a title, message, and duration, and they will automatically fade out after a set period of time.
+The `NotificationSystem` is a simple and lightweight notification manager for Roblox Exploits that allows you to display notifications on the player's screen. Notifications can be customized with a title, message, and duration, and they will automatically fade out after a set period of time.
 
 ## Features
 
@@ -10,12 +10,6 @@ The `NotificationSystem` is a simple and lightweight notification manager for Ro
 - **Multiple Notifications**: Displays a maximum of 5 notifications at a time, automatically removing the oldest when the limit is reached.
 
 ## Installation
-
-To use the `NotificationSystem` in your Roblox game, simply copy the code and place it in a ModuleScript.
-
-1. Create a new `ModuleScript` in `ReplicatedStorage` or another appropriate location.
-2. Paste the `NotificationSystem` code into the `ModuleScript`.
-3. Require the module where you need to create notifications.
 
 ```lua
 local Notification_Library = loadstring(request({Url = "[https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua](https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua)", Method = 'GET'}).Body)()
