@@ -18,13 +18,13 @@ To use the `NotificationSystem` in your Roblox game, simply copy the code and pl
 3. Require the module where you need to create notifications.
 
 ```lua
-local Notification_Library = loadstring(request({Url = "https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua", Method = 'GET'}).Body)()
+local Notification_Library = loadstring(request({Url = "[https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua](https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua)", Method = 'GET'}).Body)()
 ```
 
 ## Example usage
 
 ```lua
-local Notification_Library = require(game.ReplicatedStorage.NotificationSystem)
+local Notification_Library = loadstring(request({Url = "[https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua](https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua)", Method = 'GET'}).Body)()
 
 NotificationSystem.createNotification("Success", "Your game has been saved successfully!", 5)
 NotificationSystem.createNotification("Warning", "Low health!", 5)
