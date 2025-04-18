@@ -12,13 +12,13 @@ The `NotificationSystem` is a simple and lightweight notification manager for Ro
 ## Installation
 
 ```lua
-local Notification_Library = loadstring(request({Url = "[https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua](https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua)", Method = 'GET'}).Body)()
+local Notification_Library = loadstring(request({Url = "https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua", Method = 'GET'}).Body)()
 ```
 
 ## Example usage
 
 ```lua
-local Notification_Library = loadstring(request({Url = "[https://raw.githubusercontent.com/ScripterTSBG/custom-libraries/refs/heads/main/RuthlessRemotes.lua](https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua)", Method = 'GET'}).Body)()
+local Notification_Library = loadstring(request({Url = "https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua", Method = 'GET'}).Body)()
 
 NotificationSystem.createNotification("Success", "Your game has been saved successfully!", 5)
 NotificationSystem.createNotification("Warning", "Low health!", 5)
