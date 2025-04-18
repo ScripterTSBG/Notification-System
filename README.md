@@ -20,7 +20,7 @@ local Notification_Library = loadstring(request({Url = "https://github.com/Scrip
 ```lua
 local Notification_Library = loadstring(request({Url = "https://github.com/ScripterTSBG/Notification-System/raw/refs/heads/main/notification.lua", Method = 'GET'}).Body)()
 
-NotificationSystem.createNotification("Success", "Your game has been saved successfully!", 5)
-NotificationSystem.createNotification("Warning", "Low health!", 5)
-NotificationSystem.createNotification("Error: Critical", "Something went wrong!", 5)
+Notification_Library.createNotification("Success", "Your game has been saved successfully!", 5)
+Notification_Library.createNotification("Warning", "Low health!", 5)
+Notification_Library.createNotification("Error: Critical", "Something went wrong!", 5)
 ```
